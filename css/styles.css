@@ -1,0 +1,30 @@
+body {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: green;
+    text-align: center;
+    color: white;
+    
+}
+
+#quote {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    max-width: 30%;
+    font-family: 'Cinzel', serif;
+}
+
+footer {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    bottom: 0;
+}
