@@ -11,8 +11,9 @@ fetch(url)
                 quoteDiv.innerHTML += author;
             });
         } else {
-            quoteDiv.innerHTML += "<h3>API call failed. :(<h3>"
-            console.log("API call failed.");
+            quoteDiv.innerHTML += "<h3>Slow down.<h3>"
+            quoteDiv.innerHTML += "<p>Too many requests are being made. Only 10 requests are allowed per hour.</p>"
+            console.log("API call failed due to too many requests.");
         }
 });
 
