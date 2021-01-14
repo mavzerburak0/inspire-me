@@ -1,4 +1,4 @@
-var url = 'http://quotes.rest/qod.json?category=inspire';
+var url = 'https://quotes.rest/qod.json?category=inspire';
 var quoteDiv = document.getElementById('quote'); 
 fetch(url)
     .then(function(response) {
